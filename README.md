@@ -26,4 +26,4 @@ Open client/index.html
 
 ## API Endpoint
 
-http://localhost:5000/quiz/python
+http://127.0.0.1:8080/
