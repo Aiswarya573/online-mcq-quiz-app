@@ -1,0 +1,26 @@
+{
+  "python": [
+    {
+      "question": "What is Python?",
+      "options": ["Snake", "Programming Language", "Browser", "Database"],
+      "answer": "Programming Language"
+    },
+    {
+      "question": "Which keyword defines a function?",
+      "options": ["func", "def", "function", "define"],
+      "answer": "def"
+    }
+  ],
+  "javascript": [
+    {
+      "question": "Which symbol is used for comments?",
+      "options": ["//", "**", "##", "%%"],
+      "answer": "//"
+    },
+    {
+      "question": "JavaScript is a?",
+      "options": ["Database", "Programming Language", "OS", "Compiler"],
+      "answer": "Programming Language"
+    }
+  ]
+}
