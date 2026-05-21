@@ -3,7 +3,7 @@ const cors = require("cors");
 const fs = require("fs");
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 
@@ -24,3 +24,4 @@ app.get("/quiz/:topic", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+fetch(` https://online-mcq-quiz-app.onrender.com/${topic}`)
