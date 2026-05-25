@@ -3,7 +3,7 @@ let currentQuestions = [];
 async function loadQuiz() {
     const topic = document.getElementById("topic").value;
 
-    const response = await fetch(`https://online-mcq-quiz-app.onrender.com/quiz/python?utm_source=chatgpt.com${topic}`);
+    const response = await fetch(`https://online-mcq-quiz-app.onrender.com/${topic}`);
     currentQuestions = await response.json();
 
     const container = document.getElementById("quiz-container");
